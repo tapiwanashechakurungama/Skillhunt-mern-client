@@ -1,5 +1,62 @@
 /* navbar styles starting from here */
+/* popup post job */
+button {
+  background-color: rgb(0, 229, 128);
+  font-weight: 600;
+  font-size: large;
+  height: 3rem;
+  width: 12rem;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+}
+.job-posting-form {
+  transition: all ease 0.4s;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 8px;
+  gap: 10px;
+}
+.job-posting-form input {
+  padding: 15px 10px;
+  border-bottom: 1px rgb(0, 129, 254) solid !important;
+  width: 95%;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+}
+.job-posting-form textarea {
+  padding: 15px 10px;
+  width: 95% !important;
+  border-bottom: 1px rgb(0, 129, 254) solid !important;
+  border-top: 1px rgb(0, 129, 254) solid !important;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+}
 
+.job-posting-form body {
+  background-color: black !important;
+}
+.job-posting-form button {
+  background-color: rgb(0, 229, 128);
+  font-weight: 600;
+  font-size: large;
+  width: 12rem;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+}
+.job-posting-form input,
+textarea::placeholder {
+  color: rgb(0, 129, 254) !important;
+  font-style: italic;
+}
+
+/* popup post job */
 .navbar {
   background-color: rgb(0, 129, 254);
   height: 100px;
@@ -133,9 +190,9 @@
 
 @media screen and (max-width: 960px) {
   .nav-item:hover:after {
-  width: 100%;
-  background:none;
-}
+    width: 100%;
+    background: none;
+  }
   .single-features {
     display: flex;
     flex-direction: column;
@@ -242,22 +299,20 @@
   flex-direction: column;
   /* background-color: red; */
 }
-.features-caption *{
+.features-caption * {
   color: white;
   opacity: 1;
 }
-footer{
+footer {
   margin-top: 3rem;
 }
-footer li{
+footer li {
   list-style: none;
-  
 }
-footer li{
+footer li {
   list-style: none;
-  
 }
-footer .links{
+footer .links {
   color: black;
   text-decoration: none;
   opacity: 0.7;
@@ -279,8 +334,7 @@ footer .links{
   background: #4463ff !important;
 }
 
-
-.border-btn{
+.border-btn {
   border: 1px white solid;
   border-radius: 40px;
   padding: 8px 20px;
@@ -289,7 +343,7 @@ footer .links{
 }
 
 .footer-area .footer-tittle ul li .links {
-  color: #646D77;
+  color: #646d77;
   font-weight: 400;
   font-size: 16px;
   text-decoration: underline transparent;
@@ -326,7 +380,7 @@ footer .links{
   line-height: 1;
   border-radius: 0 3px 3px 0;
 }
-.footer-area .footer-form form input::placeholder{
+.footer-area .footer-form form input::placeholder {
   color: rgb(0, 129, 254);
   font-style: italic;
 }

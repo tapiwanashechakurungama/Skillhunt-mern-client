@@ -26,24 +26,26 @@ const Jobs = () => {
   }, [data]); // This effect runs only when 'data' changes
 
   return (
-    <div className="padding">
-      <h2>Browse your recent job</h2>
-      {oneData ? (
-        <div className="container-fluid">
-          <h3>{oneData.title}</h3>
-        </div>
-      ) : (
-        <Box
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-          height="50vh"
-          width="80vw"
-        >
-          <CircularProgress />
-        </Box>
-      )}
-    </div>
+    <>
+      <div className="padding">
+        <h2>Browse your recent job</h2>
+        {oneData ? (
+          <div className="container-fluid">
+            <h3>{oneData.title}</h3>
+          </div>
+        ) : (
+          <Box
+            display="flex"
+            justifyContent="center"
+            alignItems="center"
+            height="50vh"
+            width="80vw"
+          >
+            <CircularProgress />
+          </Box>
+        )}
+      </div>
+    </>
   );
 };
 

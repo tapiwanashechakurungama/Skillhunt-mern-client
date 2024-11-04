@@ -65,13 +65,12 @@ function NavBar() {
                 Login
               </Link>
             </li>
-            <li className="nav-items" >
+            <li className="nav-items">
               <Link
                 exact
-                to="/post-job"
                 activeClassName="active"
                 className="nav-links post-job"
-                onClick={handleClick}
+                to="postjob"
               >
                 Post job
               </Link>
