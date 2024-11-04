@@ -25,7 +25,7 @@ const Postjob = () => {
         setCompany("")
         setLocation("")
         setType("")
-        setDescription("Thanks the job post have been submitted our team will contact you as soon as possible to verify you are not wasting our time")
+        setDescription("Thanks the job post have been submitted our team will contact you as soon as possible ")
         setMaxApplications("")
         setMessage("Job post successfully created")
       }
